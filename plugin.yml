@@ -1,0 +1,14 @@
+name: SoupArena
+version: 1.0
+main: cz.souparena.SoupArena
+api-version: '1.21'
+commands:
+  uhc:
+    description: Ovládání UHC (start/stop)
+    usage: /uhc <start|stop>
+  lobby:
+    description: Návrat do lobby
+    usage: /lobby
+permissions:
+  souparena.admin:
+    default: op
